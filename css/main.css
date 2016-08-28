@@ -1,0 +1,15 @@
+body {
+  font-family: 'Source sans pro';
+  margin: 0;
+  padding: 0; }
+
+.lockup .unit {
+  flex: 1; }
+  .lockup .unit:nth-child(1) {
+    background-image: url("https://s6.postimg.io/b6p8kc2oh/img_man_1_min.jpg");
+    background-size: cover;
+    background-position: center center; }
+
+section {
+  padding-top: 40px;
+  padding-bottom: 40px; }

@@ -1,0 +1,12 @@
+.lockup{
+.unit{
+  flex: 1;
+  &:nth-child(1){
+    background:{
+      image: url('https://s6.postimg.io/b6p8kc2oh/img_man_1_min.jpg');
+      size: cover;
+      position: center center;
+    }
+  }
+}
+}
