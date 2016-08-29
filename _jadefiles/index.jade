@@ -11,15 +11,20 @@ head
   link(href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Raleway:100,200,300,400,600,700,800|Source+Sans+Pro:200,300,400,600,700" ,rel="stylesheet")
 
 body
-  h1 Asset Chemist
-  h4 Your Local Pharmacy
+  .title-wrap.flex.flex--center.align-center.columns
+    h1 Asset Chemist
+    h4 Your Local Pharmacy
   
   .lockup.flex.flex--center.align-center.rows
-    .unit.flex.flex--center.align-center
-      h1 Men's Health
-    .unit.flex.flex--center.align-center
-      h1 Women's Health
-    .unit.flex.flex--center.align-center
-      h1 Seasonal Health
-    .unit.flex.flex--center.align-center
-      h1 Online Doctor
+    a.unit(href="https://www.assetchemist.co.uk/doctor/mens-health/",title="Asset Chemist")
+      .overlay.flex.flex--center.align-center
+        h1 Men's Health
+    a.unit(href="https://www.assetchemist.co.uk/doctor/womens-health/",title="Asset Chemist")
+      .overlay.flex.flex--center.align-center
+        h1 Women's Health
+    a.unit(href="http://assetchemist.co.uk",title="Asset Chemist")
+      .overlay.flex.flex--center.align-center
+        h1 Sexual Health
+    a.unit(href="https://www.assetchemist.co.uk/doctor",title="Asset Chemist")
+      .overlay.flex.flex--center.align-center
+        h1 Online Doctor

@@ -3,13 +3,71 @@ body {
   margin: 0;
   padding: 0; }
 
+.title-wrap {
+  padding: 30px;
+  animation: bounceIn 4s ease-in-out; }
+  .title-wrap h1 {
+    font-weight: 200;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px; }
+  .title-wrap h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 10px; }
+
 .lockup .unit {
-  flex: 1; }
+  flex: 1;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  margin: 10px;
+  animation: fadeInUp ease-in-out 3s; }
+  .lockup .unit:hover {
+    border-radius: 10px;
+    height: 400px; }
+    .lockup .unit:hover .overlay {
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.3); }
+  .lockup .unit .overlay {
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); }
+    .lockup .unit .overlay h1 {
+      color: white;
+      letter-spacing: -1px;
+      font-size: 35px;
+      font-weight: 300; }
+  .lockup .unit:nth-child(2) {
+    background-image: url("https://download.fotolia.com/DownloadContent/2/piS4uAMUGhJcpFi4crxTc2Tx0cZclIHQ/Fotolia_117160107_Subscription_Monthly_M");
+    background-size: cover;
+    background-position: center center; }
   .lockup .unit:nth-child(1) {
     background-image: url("https://s6.postimg.io/b6p8kc2oh/img_man_1_min.jpg");
+    background-size: cover;
+    background-position: center center; }
+  .lockup .unit:nth-child(3) {
+    background-image: url("https://download.fotolia.com/DownloadContent/2/yj8a0gUDwZxAB34zKZLaIA7cCVd0t2yh/Fotolia_118308664_Subscription_Monthly_M");
+    background-size: cover;
+    background-position: center center; }
+  .lockup .unit:nth-child(4) {
+    background-image: url("https://s6.postimg.io/458auzdsh/Fotolia_106433243_Subscription_Monthly_M.jpg");
     background-size: cover;
     background-position: center center; }
 
 section {
   padding-top: 40px;
   padding-bottom: 40px; }
+
+* {
+  box-sizing: border-box;
+  transition: .76s ease-in-out all; }
